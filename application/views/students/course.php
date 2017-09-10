@@ -18,7 +18,7 @@
 							<td>'.$s['lname'].'</td>
 							<td>'.$s['fname'].'</td>
 							<td>
-								<a href="'.base_url('students/profile/'.$s['idno']).'">view</a>   
+								<a href="'.base_url('students/courseview/'.$s['idno']).'">view</a>   
 								<a href="">edit</a>    
 								<a href="">delete</a>   
 							 </td>

@@ -1,4 +1,4 @@
-<?php include 'C:\wamp64\www\ArmandoAricayos\application\views\include\header1.php' ?>
+
 	
 	<div class="col-md-4 col-xs-4 col-sm-4 column2">
 		<p><b>ID No: </b><?php echo $student[0]['idno']; ?></p>
@@ -8,4 +8,3 @@
 	
 	<a href="../../boots" class="btn btn-danger btn-md">Back</a>
 	</div>
-<?php include 'C:\wamp64\www\ArmandoAricayos\application\views\include\footer.php' ?>
