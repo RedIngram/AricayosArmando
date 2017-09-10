@@ -24,7 +24,7 @@
 	<div class="row">
 		<div class="col-md-4 col-xs-4 col-sm-4 column">
 			<p class="lead">Menu</p>
-			<a href=""><p class="nav">Students</p></a>
-			<a href=""><p class="nav">Course</p></a>
+			<a href="<?php echo base_url('boots');?>"><p class="nav">Students</p></a>
+			<a href="<?php echo base_url('boots/courses');?>"><p class="nav">Course</p></a>
 		</div>
 	
