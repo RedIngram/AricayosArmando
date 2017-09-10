@@ -1,0 +1,31 @@
+/*my boots!*/
+
+.container { 
+	width: 1000px; 
+}
+
+.header1, .footer{ 
+	background-color: #2874A6;
+	color: #fff;
+	padding: 8px 25px;
+}
+
+.column {
+	width: 300px; 
+	padding: 8px 25px;
+}
+
+.column2 {
+	width: 900px; 
+	padding: 8px 80px;
+	margin: 50px;
+}
+
+.nav{
+	margin: 15px;
+	font-size: 16px;
+}
+
+.button{
+	margin-left: 300px;
+}
