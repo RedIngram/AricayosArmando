@@ -3,45 +3,21 @@
 		<p class="lead">Add new student</p>
 				<form role="form" method="POST">
 					<div class="form-group">
-						<label for="idno">ID No.:</label>
+						<label for="idno">Course id:</label>
 						<input type="text" class="form-control" id="idno" name="idno"/>
 					</div>
 						
 					<div class="form-group">
-						<label for="lname">Last Name:</label>
+						<label for="lname">Course Name:</label>
 						<input type="text" class="form-control" id="lname" name="lname"/>
 					</div>
 
 						<div class="form-group">
-						<label for="fname">First Name:</label>
+						<label for="fname">Description:</label>
 						<input type="text" class="form-control" id="fname" name="fname"/>
 					</div>
 		
-						<div class="form-group">
-						<label for="mname">Middle Name:</label>
-						<input type="text" class="form-control" id="mname" name="mname"/>
-					</div>
 
-						<div class="form-group">
-						<label for="course">Course:</label>
-						<select class="form-control" id="course" name="course">
-						<option>Please select</option>
-						<?php 
-
-								foreach($course as $row)
-								{ 
-								  echo '<option value="'.$row->name.'">'.$row->name.'</option>';
-								}
-						?>
-						<option value=""></option>
-					</div>
-					
-					<div class="form-group">
-						<label for="sex">Sex:</label>
-						<input type="radio" class="" id="sex" name="sex" value="M"/>Male
-						<input type="radio" class="" id="sex" name="sex" value="F"/>Female
-					</div>
-					
 					<div class="form-group">
 					<a href="../boots" >
 					<button type="submit" class="btn btn-primary">
